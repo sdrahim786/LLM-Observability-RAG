@@ -1,0 +1,12 @@
+Meeting notes -- Personal RAG Assistant project
+
+Goal: build a fully local RAG pipeline with long-term memory, no paid APIs.
+
+Key decisions:
+- Embeddings model: all-MiniLM-L6-v2 (small, fast, good enough for personal-scale corpora)
+- Vector store: ChromaDB, persisted to disk under ./chroma_db
+- LLM: Llama 3.1 via Ollama, running on localhost
+- Memory: Mem0 for facts/preferences that should persist across sessions,
+  separate from the document vector store
+
+Next steps: chunking strategy, then wire up the vector store.

@@ -1,0 +1,28 @@
+# Core pipeline
+langchain
+langchain-community
+langchain-text-splitters
+pypdf
+docx2txt
+
+# Embeddings -- downloads all-MiniLM-L6-v2 (~90MB) on first use
+sentence-transformers
+
+# Vector store
+chromadb
+
+# Backend
+fastapi
+uvicorn[standard]
+pydantic>=2
+httpx
+
+# Frontend
+streamlit
+
+# Tests
+pytest
+
+# Optional: semantic long-term memory. LocalMemory is the default and needs
+# nothing. Install this only if you want mem0's LLM-backed fact extraction.
+# mem0ai
