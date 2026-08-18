@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Local LLM Observability
 
 Trace every LLM call, retrieval, and memory operation in a local RAG pipeline. Fully self-hosted, no paid APIs, no data leaving your machine.
@@ -153,4 +153,4 @@ MIT
 =======
 # LLM-Observability-RAG
 Open source tracing and observability for local LLM apps. Logs latency, token cost, and retrieval quality for every call, built entirely on self-hosted tools
->>>>>>> 4b30322d00a2d8286a84c149b9e3341f14194cf8
+
